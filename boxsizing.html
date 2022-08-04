@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box sizing</title>
+    <style>
+        .main{
+            display: flex;
+
+        }
+        .simple{
+            width: 400px;
+            height: 300px;
+            border: 40px groove yellow;
+            padding: 20px;
+
+        }
+        .box{
+            width: 400px;
+            height: 300px;
+            padding: 20px;
+            border: 40px solid green;
+            box-sizing: border-box;
+
+        }
+        h1{
+            text-align: center;
+            color: red;
+
+        }
+        span{
+            color: green;
+        }
+        .s1{
+            color: red;
+        }
+        .s2{
+            color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>We are going to learn Box sizing </h1>
+    <div class="main">
+    <div class="simple">
+        <h1>This is simple box</h1>
+           <h3>With these properties</h3>
+           <h4>
+            <span class="s1"> width:</span><span> 400px;</span><br>
+            <span class="s1"> hieght:</span><span> 300px;</span><br>
+            <span class="s1"> border:</span><span> 40px;</span><br>
+            <span class="s1"> padding:</span><span> 20px;</span> <span class="s2">groove yellow;</span><br>
+            <span class="s1"> box:</span><span class="s2">border-box;</span>
+            </h4>
+
+             
+
+    </div>
+    <div class="box">
+        <h1>This is box sizing</h1>
+        <h3>With these properties</h3>
+        <h4>
+            <span class="s1"> width:</span><span> 400px;</span><br>
+            <span class="s1"> hieght:</span><span> 300px;</span><br>
+            <span class="s1"> border:</span><span> 40px;</span><br>
+            <span class="s1"> padding:</span><span> 20px;</span> <span class="s2">groove yellow;</span>
+
+           </h4>
+
+    </div>
+
+</div>
+    
+</body>
+</html>
